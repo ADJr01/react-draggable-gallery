@@ -28,4 +28,19 @@
     background: #ECF9FF;
     overflow: hidden;
 }
+@media screen and (max-width: 996px){
+    .app_container{
+        overflow: scroll;
+        scroll-behavior: smooth;
+        padding: 0;
+        height: 200vh;
+    }
+    .gallery_view{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+}
+
 

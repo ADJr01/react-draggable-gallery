@@ -26,7 +26,7 @@ const primaryList = [
     'image-10.jpeg',
     'image-11.jpeg',
 ];
-const pre_fix = '/react-draggable-gallery/asset/images/'
+const pre_fix = '/react-draggable-gallery/asset/images/';
 export default function (props) {
     const [checkArray,setCheckArray] = useState([]);
     const [ImageList,setImageState] = useState(primaryList);
