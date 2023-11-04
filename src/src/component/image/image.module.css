@@ -1,0 +1,13 @@
+.grid_col_2{
+    grid-column: span 2;
+}
+
+.grid_row_2{
+    grid-row: span 2;
+}
+.gallery_image{
+    transition: transform 0.3s ease;
+}
+.gallery_image:hover{
+   filter: drop-shadow(0 0 0.5rem rgba(66, 63, 63, 0.33)) brightness(0.68);
+}
