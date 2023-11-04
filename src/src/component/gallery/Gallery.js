@@ -81,7 +81,7 @@ export default function (props) {
                     <Image key={item} showRadioBtn={checkArray.length>0}  onCheck={updateCheckArray} item_id={item} isDoppable={item===dragDestination} isDragging={item===dragSrc} item={`${pre_fix}${item}`} index={index} onDraginit={onDragStart} clearDrag={clearDragCalls} onDragEvent={onDragOver}/>
                 ))}
                 <div style={{border: '2px dotted black',borderRadius:'8px',display:'flex',flexDirection: 'column',justifyContent:'center',alignItems: 'center'}}>
-                    <img src={'/asset/img-ico.png'} width={38} height={38} alt={'img ico'}/>
+                    <img src={'/react-draggable-gallery/asset/img-ico.png'} width={38} height={38} alt={'img ico'}/>
                     <span>Add Images</span>
                 </div>
             </div>
